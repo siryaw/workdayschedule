@@ -19,7 +19,7 @@ $( document ).ready(function() {
     for (let i = 9; i < 18; i++) {
     
         let row = $(`<div data-time=${i} id='${i}' class="row">`);
-        let col1 = $('<div class="col-sm-2"> <p class="hour">';
+        let col1 = $('<div class="col-sm-2"> <p class="hour">'+ formatAMPM(i) + '</p>');
         let col2 = $(`<div class="col-sm-8 past"><textarea id=text${i} class="description" placeholder="Add your event here..."></textarea>`);        
         let  col3 = $(`<div class="col-sm-2"><button class="saveBtn" id=${i}><i class="fas fa-save"></i></button>`)
         
