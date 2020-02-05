@@ -3,7 +3,9 @@
 function colorPicker(){
     let currentTime = new Date().getHours();
     for (var i = 9; i < 18; i++) { 
-    console.log(currentTime, $(`#${i}`).data("time"));
+    
+        //console.log(currentTime, $(`#${i}`).data("time"));
+
      if ($(`#${i}`).data("time") == currentTime){
         $(`#text${i}`).addClass( "present");
     } else if (currentTime < $(`#${i}`).data("time")) {
