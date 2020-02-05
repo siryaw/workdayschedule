@@ -1,5 +1,7 @@
 # workdayschedule
 
+![screenshot](Screenshot.png)
+
 # Description
 
 As part of the UCF coding bootcamp homework for week 5, the workday scheduler is a simple calendar application that allows the user to save events for each hour of the day. The user will be able to see color coded lists by the hour representing past, present and future todos. User can also save items to local storage so they do no disappear when the page is reloaded.
