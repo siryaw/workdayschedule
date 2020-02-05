@@ -35,7 +35,7 @@ This app will run in the browser and feature dynamically updated HTML and CSS po
 
 # Challenges
 
-Believe you me, one of the hardest parts of this project was trying to get everything lined up on the webpage, especially the alignment of the card. I tried bootstraps very own jumbotron. I tired cards, good ol containers and even tried to implement a progress bar at some point instead of the seconds counting down. A friend of mine was successfull in that remark but I decided it wasnt worth the hassle.
+Believe you me, one of the hardest parts of this project was trying to get the date and time to function correctly. I finally decided that i would remove the time and keep the day. After hours of browsing stackoverflow, i finally was able to taylor a solution.
 
 # Demo
 
